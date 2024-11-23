@@ -5,7 +5,7 @@ import { CarsTableComponent } from './modules/dashboard/components/cars-table/ca
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CarsTableComponent],
+  imports: [CarsTableComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
